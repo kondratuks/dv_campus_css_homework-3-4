@@ -1,0 +1,38 @@
+/* General styles */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+#products ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+#products ul li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+#products ul li article {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 250px;
+}
+
+#products ul li img {
+    max-width: 100%;
+}
